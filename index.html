@@ -10,12 +10,14 @@
 </head>
 <body>
     <!-- home page -->
-    <section class="container-fluid text-white text-center home">
-        <img src="images/logo/logo.png" alt="logo">
-        <h1>WELCOME</h1>
-        <h1>TO DELANI STUDIOS</h1>
-        <h4>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h4>
-        <img src="images/mouse_click.png" alt="mouse click" class="p-5">
+    <section class="container-fluid text-white text-center home"> 
+            <div style="background-image: url('images/backgrounds/h_img.jpg'); height:100vh; background-repeat: no-repeat; background-size: cover;">
+                <img src="images/logo/logo.png" alt="logo">
+                <h1>WELCOME</h1>
+                <h1>TO DELANI STUDIOS</h1>
+                <h4>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h4>
+                <img src="images/mouse_click.png" alt="mouse click" class="p-5">
+            </div>
     </section>
 
     <!-- About us page -->
@@ -140,18 +142,34 @@
     </section>
     
     <!-- contact us section -->
-    <section class="container" >
+    <section class="container-fluid"> 
         <div style="background-image: url('images/backgrounds/c_image.jpg'); height: 70vh;">
             <form action="">
-                <div>
-                     <input type="text" name="" id="" value="" placeholder="Name">   
-                     <input type="text" name="" id="" value="" placeholder="Name">
+                <div class="m-5">
+                     <input type="text" class="form-control " name="" id="" value="" placeholder="Name">   
+                     <input type="Email" class="form-control" name="" id="" value="" placeholder="Email">
                 </div>
-                <textarea name="" id="" cols="70" rows="10" placeholder="Your message here"></textarea>
+                <!-- <textarea name="" id="" cols="70" rows="10" placeholder="Your message here" class=""></textarea> -->
+                <div class="m-3">
+                    <textarea class="form-control" id="message" placeholder="Your message here" cols="70" rows="7"></textarea>
+                  </div>
      
              </form>
         </div>
     </section>
+
+    <!-- footer -->
+    <footer class="footer hidden-print">
+        <img src="images/social_icons/twitter.png" alt="">
+        <img src="images/social_icons/dribble.png" alt="">
+        <img src="images/social_icons/facebook.png" alt="">
+        <img src="images/social_icons/g_plus.png" alt="">
+        <img src="images/social_icons/skype.png" alt="">
+        <img src="images/social_icons/stumble_upon.png" alt="">
+        <img src="images/social_icons/behance.png" alt="">
+        <img src="images/social_icons/pinterest.png" alt="">
+        <img src="images/social_icons/flickr.png" alt="">
+    </footer>
 
 
 
