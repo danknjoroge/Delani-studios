@@ -54,3 +54,9 @@ input[type="email"]{
 .contact{
     width: 80%;
 }
+footer{
+    text-align: center;
+}
+footer img{
+    margin: 10px;;
+}
