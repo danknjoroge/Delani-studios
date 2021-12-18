@@ -10,40 +10,41 @@
 </head>
 <body>
     <!-- home page -->
-    <section class="container-fluid text-white text-center home"> 
-            <div style="background-image: url('images/backgrounds/h_img.jpg'); height:100vh; background-repeat: no-repeat; background-size: cover;">
+    <section class="container-fluid" style="background-image: url('images/backgrounds/h_img.jpg'); height:105vh; background-repeat: no-repeat; background-size: cover;"> 
+            <div class="home">
                 <img src="images/logo/logo.png" alt="logo">
                 <h1>WELCOME</h1>
                 <h1>TO DELANI STUDIOS</h1>
                 <h4>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h4>
-                <img src="images/mouse_click.png" alt="mouse click" class="p-5">
+                <img src="images/mouse_click.png" alt="mouse click" class="p-5 mouse">
             </div>
     </section>
 
     <!-- About us page -->
-    <section class="container p-5" >
+    <section class="container-fluid p-5 text-center" >
         <h1>ABOUT US</h1>
         <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software
-            development process are intergrated, interactive and agile
+            development process are intergrated, interactive <br> and agile
         </p>
-        <p>our approach unifies design, development and product management to create exceptional products</p>
+        <p>Our approach unifies design, development and product management to create exceptional products</p>
         <p>We start each project by understanding your business goals, the user's needs and the product requirements</p>
         <p>Then we help translate them into effective and elegant solutions.</p> </p>
     </section>
 
     <!-- Services page -->
-    <section class="container-fluid services">
+    <section class="container-fluid services" style="background-image: url('images/backgrounds/s_image.jpg'); height: 55vh; background-repeat: no-repeat; background-size: cover;">
         <h1>SERVICES</h1>
         <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.</p>
         <p>The outcome of the scoping session is proposal or high-level statement of work.</p>
         <p>Based on your requirements, we can provide a complete offering or just the pieces  you need.</p>
     </section>
 
-    <!-- What we do -->
-    <!-- <section class=" text-white">
+    <!-- what we do page -->
+    <section class="container what pt-4">
         <h1>WHAT WE DO</h1>
-        <div class="row">
-            <div class="col-sm-3 m-3 bg-dark ">
+        <div class="row design">
+            <div class="col-sm-3 mt-3">
+                <img src="images/services_icons/design_icon.png" alt="">
                 <h6>DESIGNS</h6>
                 <p>
                     Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
@@ -51,44 +52,16 @@
 
                 </p>
             </div>
-            <div class="col-sm-3 box m-3 bg-dark">
+            <div class="col-sm-3 box mt-3">
+                <img src="images/services_icons/dev_icon.png" alt="">
                 <h6>DEVELOPMENT</h6>
                 <p>
                     All engineers are fluent in the latest enterprise, mobile and web development technologies.
                     They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming. 
                 </p>
             </div>
-            <div class="col-sm-3 box m-3 bg-dark">
-                <h6>PRODUCT MANAGEMENT</h6>
-                <p>
-                    Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
-                    This iterative process allows for changes as business requirements evolve.
-                </p>
-            </div>
-        </div>
-    </section> -->
-    <section class="container text-white">
-        <h1>WHAT WE DO</h1>
-        <div class="row">
-            <div class="col-sm-3 m-3 bg-dark ">
-                <img src="/images/services_icons/design_icon.png" alt="">
-                <h6>DESIGNS</h6>
-                <p>
-                    Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-                    Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
-
-                </p>
-            </div>
-            <div class="col-sm-3 box m-3 bg-dark">
-                <img src="/images/services_icons/dev_icon.png" alt="">
-                <h6>DEVELOPMENT</h6>
-                <p>
-                    All engineers are fluent in the latest enterprise, mobile and web development technologies.
-                    They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming. 
-                </p>
-            </div>
-            <div class="col-sm-3 box m-3 bg-dark">
-                <img src="/images/services_icons/product_icon.png" alt="">
+            <div class="col-sm-3 box mt-3">
+                <img src="images/services_icons/product_icon.png" alt="">
                 <h6>PRODUCT MANAGEMENT</h6>
                 <p>
                     Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
@@ -99,10 +72,10 @@
     </section>
 
     <!-- portfolio -->
-    <section class="container text-white">
+    <section class="container pt-5 portfolio">
         <h1 class="text-dark">PORTFOLIO</h1>
 
-        <div class="row">
+        <div class="row portfo">
             <div class="col-sm-2 m-3">
                 <img src="/images/portfolio/work4.jpg" alt=""width="200px" >
                 
@@ -119,7 +92,7 @@
                 <img src="/images/portfolio/work1.jpg" alt="" width="200px">
                
             </div>
-            <div class="row">
+            <div class="row portfo">
                 <div class="col-sm-2 m-3 ">
                     <img src="/images/portfolio/work5.jpg" alt=""width="200px" >
                     
@@ -142,16 +115,17 @@
     </section>
     
     <!-- contact us section -->
-    <section class="container-fluid"> 
-        <div style="background-image: url('images/backgrounds/c_image.jpg'); height: 70vh;">
-            <form action="">
-                <div class="m-5">
-                     <input type="text" class="form-control " name="" id="" value="" placeholder="Name">   
-                     <input type="Email" class="form-control" name="" id="" value="" placeholder="Email">
+    <section class="container-fluid p-4" style="background-image: url('images/backgrounds/c_image.jpg'); height: 70vh; background-repeat: no-repeat; background-size: cover;"> 
+        <div class="container text-center contact">
+            <h1>CONTACT US</h1>
+
+            <form action="" class="p-3">
+                <div class="form">
+                     <input type="text" class="form-control " name="name" id="name" value="" placeholder="Name">   
+                     <input type="email" class="form-control" name="email" id="email" value="" placeholder="Email">
                 </div>
-                <!-- <textarea name="" id="" cols="70" rows="10" placeholder="Your message here" class=""></textarea> -->
                 <div class="m-3">
-                    <textarea class="form-control" id="message" placeholder="Your message here" cols="70" rows="7"></textarea>
+                    <textarea class="form-control textarea" id="message" placeholder="Your message here" cols="70" rows="7"></textarea>
                   </div>
      
              </form>
@@ -160,6 +134,7 @@
 
     <!-- footer -->
     <footer class="footer hidden-print">
+       <div>
         <img src="images/social_icons/twitter.png" alt="">
         <img src="images/social_icons/dribble.png" alt="">
         <img src="images/social_icons/facebook.png" alt="">
@@ -169,6 +144,12 @@
         <img src="images/social_icons/behance.png" alt="">
         <img src="images/social_icons/pinterest.png" alt="">
         <img src="images/social_icons/flickr.png" alt="">
+       </div>
+       <div>
+           <h5>DELANI STUDIO</h5>
+           <h5>2019</h5>
+       </div>
+
     </footer>
 
 
