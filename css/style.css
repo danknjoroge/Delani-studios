@@ -58,5 +58,18 @@ footer{
     text-align: center;
 }
 footer img{
-    margin: 10px;;
+    margin: 10px;
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        background-color: aqua;
+        /* color: white; */
+    }
+    .home{
+        padding-top: 60px;
+    }
+    .services{
+        padding-top: 20px;
+    }
+}
+
