@@ -46,6 +46,14 @@ input[type="email"]{
     background-color: transparent;
     border-color: white;
 }
+input[type="submit"]{
+    background-color: transparent;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+}
 
 .form{
     display: flex;

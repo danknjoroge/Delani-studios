@@ -119,14 +119,15 @@
         <div class="container text-center contact">
             <h1>CONTACT US</h1>
 
-            <form action="" class="p-3">
+            <form action="" name="myForm" id="myForm" class="p-3" onsubmit="validateForm();">
                 <div class="form">
                      <input type="text" class="form-control " name="name" id="name" value="" placeholder="Name">   
                      <input type="email" class="form-control" name="email" id="email" value="" placeholder="Email">
                 </div>
                 <div class="m-3">
-                    <textarea class="form-control textarea" id="message" placeholder="Your message here" cols="70" rows="7"></textarea>
-                  </div>
+                    <textarea class="form-control textarea" name="message" id="message" placeholder="Your message here" cols="70" rows="7"></textarea>
+                </div>
+                <input type="submit" value="Submit">
      
              </form>
         </div>
