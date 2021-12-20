@@ -20,7 +20,22 @@ $(document).ready(function() {
             $("#imgd").show();
             $(".desp").hide();
         })
-        
+    })
+    $("#imgdev").click(function() {
+        $(".desdevp").toggle();
+        $("#imgdev").hide();
+        $(".desdevp").click(function() {
+            $("#imgdev").show();
+            $(".desdevp").hide();
+        })
+    })
+    $("#prodimg").click(function() {
+        $(".prodp").toggle();
+        $("#prodimg").hide();
+        $(".prodp").click(function() {
+            $("#prodimg").show();
+            $(".prodp").hide();
+        })
     })
 });
 
