@@ -11,6 +11,13 @@ function validateForm() {
     } 
 }
 
+$(document).ready(function(){
+    $('.work').mouseover(function() {
+      $('.ova').show();
+    }).mouseout(function() {
+      $('.ova').hide();
+    });
+  })
 //user interface logic
 $(document).ready(function() {
     $("#imgd").click(function() {
@@ -37,13 +44,17 @@ $(document).ready(function() {
             $(".prodp").hide("slow");
         })
     })
-    $(".work1").mouseover(function() {
-        $(".work1-overlay").show("slow");
-    }).mouseout(function() {
-        $(".work1-overlay").hide("slow");
 
-    })
+    //overlay
+    // $(".work1").mouseover(function() {
+    //     $(".wh1").show("slow");
+    // }).mouseout(function() {
+    //     $(".wh1").hide("slow");
+
+    // })
 });
+
+
 
 //business logic
 var takeData = document.getElementById("myForm");

@@ -83,20 +83,29 @@ footer img{
     margin: 10px;
 }
 /* overlar */
-.work1 h3{
-    color: red;
+.wonger{
+    width: 80%;
+    height: 80%;
+    border: 2px solid #fff;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  .wonger h1{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30%;
+    font-style:oblique;
+  
+  }
+.ova{
     display: none;
-}
-
-
-
-
-
-
-
-
-
-
+      background-color: green;
+      opacity: 0.7;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 250px;
+  }
 
 
 
@@ -106,13 +115,17 @@ footer img{
 @media screen and (min-width: 480px) and (max-width: 767px) {
     body {
         background-color: aqua;
-        /* color: white; */
     }
     .home{
         padding-top: 60px;
     }
     .services{
         padding-top: 20px;
+    }
+    .work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8{
+        margin-top:20px;
+        width: 200px;
+        margin-left: 25px;
     }
 }
 
