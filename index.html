@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- home page -->
-    <section class="container-fluid" style="background-image: url('images/backgrounds/h_img.jpg'); height:105vh; background-repeat: no-repeat; background-size: cover;"> 
+    <section class="container-fluid" style="background-image: url('images/backgrounds/h_img.jpg'); background-attachment: fixed; height:105vh; background-repeat: no-repeat; background-size: cover;"> 
             <div class="home">
                 <img src="images/logo/logo.png" alt="logo">
                 <h1>WELCOME</h1>
@@ -73,43 +73,48 @@
     <!-- portfolio -->
     <section class="container pt-5 portfolio">
         <h1 class="text-dark">PORTFOLIO</h1>
+        <div class="row pt-3">
 
-        <div class="row portfo">
-            <div class="col-sm-2 m-3">
-                <img src="/images/portfolio/work4.jpg" alt=""width="200px" >
-                
+            <div class="col-md-3 work1">
+              <img class="w-100" src="images/portfolio/work4.jpg" alt="work image">
+                <h3 class="wh1">Blanksh</h3>
+              
             </div>
-            <div class="col-sm-2 box m-3">
-                <img src="/images/portfolio/work3.jpg" alt="" width="200px">
-                
+
+            <div class="col-md-3 work2">
+              <img class="w-100" src="images/portfolio/work3.jpg" alt="work image">
             </div>
-            <div class="col-sm-2 box m-3">
-                <img src="/images/portfolio/work2.jpg" alt="" width="200px">
-                
+
+            <div class="col-md-3 work3">
+              <img class="w-100" src="images/portfolio/work2.jpg" alt="work image">
             </div>
-            <div class="col-sm-2 box m-3">
-                <img src="/images/portfolio/work1.jpg" alt="" width="200px">
-               
+
+            <div class="col-md-3 work4">
+              <img class="w-100" src="images/portfolio/work1.jpg" alt="work image">
             </div>
-            <div class="row portfo">
-                <div class="col-sm-2 m-3 ">
-                    <img src="/images/portfolio/work5.jpg" alt=""width="200px" >
-                    
-                </div>
-                <div class="col-sm-2 box m-3">
-                    <img src="/images/portfolio/work6.jpg" alt="" width="200px">
-                    
-                </div>
-                <div class="col-sm-2 box m-3">
-                    <img src="/images/portfolio/work7.jpg" alt="" width="200px">
-                    
-                </div>
-                <div class="col-sm-2 box m-3">
-                    <img src="/images/portfolio/work8.jpg" alt="" width="200px">
-                   
-                </div>
+
+        </div>
+
+        <div class="row py-5">
+
+            <div class="col-md-3 work5">
+              <img class="w-100" src="images/portfolio/work5.jpg" alt="work image">
             </div>
-            
+
+            <div class="col-md-3 work6">
+              <img class="w-100" src="images/portfolio/work6.jpg" alt="work image">
+              
+            </div>
+
+            <div class="col-md-3 work7">
+              <img class="w-100" src="images/portfolio/work7.jpg" alt="work image">
+            </div>
+
+            <div class="col-md-3 work8">
+              <img class="w-100 work-image" src="images/portfolio/work8.jpg" alt="work image">
+            </div>
+
+          
         </div>
     </section>
     
@@ -126,11 +131,12 @@
                 <div class="m-3">
                     <textarea class="form-control textarea" name="message" id="message" placeholder="Your message here" cols="70" rows="7"></textarea>
                 </div>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" class="submit">
      
              </form>
         </div>
     </section>
+    
 
     <!-- footer -->
     <footer class="footer hidden-print">

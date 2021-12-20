@@ -1,5 +1,9 @@
-body{
+/* body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+html{
+  scroll-behavior: smooth;
 }
 .home{
     padding-top:220px;
@@ -54,6 +58,16 @@ input[type="submit"]{
     color: white;
     font-weight: bold;
 }
+#email::placeholder{
+    color: white;
+  }
+  
+#name::placeholder{
+    color: white;
+  }
+  #message::placeholder{
+    color: white;
+  }
 
 .form{
     display: flex;
@@ -68,6 +82,27 @@ footer{
 footer img{
     margin: 10px;
 }
+/* overlar */
+.work1 h3{
+    color: red;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 480px) and (max-width: 767px) {
     body {
         background-color: aqua;
