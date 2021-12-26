@@ -11,29 +11,23 @@ function validateForm() {
     } 
 }
 
-$(document).ready(function(){
-    $('.work').mouseover(function() {
-      $('.ova').show();
-    }).mouseout(function() {
-      $('.ova').hide();
-    });
-  })
+
 //user interface logic
 $(document).ready(function() {
     $("#imgd").click(function() {
-        $(".desp").toggle();
-        $("#imgd").hide();
+        $(".desp").toggle("slow");
+        $("#imgd").hide("slow");
         $(".desp").click(function() {
-            $("#imgd").show();
-            $(".desp").hide();
+            $("#imgd").show("slow");
+            $(".desp").hide("slow");
         })
     })
     $("#imgdev").click(function() {
-        $(".desdevp").toggle();
-        $("#imgdev").hide();
+        $(".desdevp").toggle("slow");
+        $("#imgdev").hide("slow");
         $(".desdevp").click(function() {
-            $("#imgdev").show();
-            $(".desdevp").hide();
+            $("#imgdev").show("slow");
+            $(".desdevp").hide("slow");
         })
     })
     $("#prodimg").click(function() {
@@ -45,13 +39,64 @@ $(document).ready(function() {
         })
     })
 
-    //overlay
-    // $(".work1").mouseover(function() {
-    //     $(".wh1").show("slow");
-    // }).mouseout(function() {
-    //     $(".wh1").hide("slow");
 
-    // })
+    $(".work1").mouseover(function() {
+        $(".ova").show();
+        $(".w1").addClass("div");
+    }).mouseout(function() {
+        $(".ova").hide();
+        $(".w1").removeClass("div");
+    })
+    $(".work2").mouseenter(function() {
+        $(".ova1").show();
+        $(".w2").addClass("div");
+    }).mouseleave(function() {
+        $(".ova1").hide();
+        $(".w2").removeClass("div");
+    })
+    $(".work3").mouseenter(function() {
+        $(".ova2").show();
+        $(".w3").addClass("div");
+    }).mouseleave(function() {
+        $(".ova2").hide();
+        $(".w3").removeClass("div");
+    })
+    $(".work4").mouseenter(function() {
+        $(".ova3").show();
+        $(".w4").addClass("div");
+    }).mouseleave(function() {
+        $(".ova3").hide();
+        $(".w4").removeClass("div");
+    })
+    $(".work5").mouseenter(function() {
+        $(".ova4").show();
+        $(".w5").addClass("div");
+    }).mouseleave(function() {
+        $(".ova4").hide();
+        $(".w5").removeClass("div");
+    })
+    $(".work6").mouseenter(function() {
+        $(".ova5").show();
+        $(".w6").addClass("div");
+    }).mouseleave(function() {
+        $(".ova5").hide();
+        $(".w6").removeClass("div");
+    })
+    $(".work7").mouseenter(function() {
+        $(".ova6").show();
+        $(".w7").addClass("div");
+    }).mouseleave(function() {
+        $(".ova6").hide();
+        $(".w7").removeClass("div");
+    })
+    $(".work8").mouseenter(function() {
+        $(".ova7").show();
+        $(".w8").addClass("div");
+    }).mouseleave(function() {
+        $(".ova7").hide();
+        $(".w8").removeClass("div");
+    }) 
+      
 });
 
 
