@@ -87,10 +87,9 @@ footer img{
 
 .ova, .ova1, .ova2, .ova3, .ova4, .ova5, .ova6, .ova7{
     display: none;
-    margin-top: -200px;
+    margin-top: -150px;
     background-color:black;
-    padding-top: 70px;
-    padding-bottom: 30px;
+    padding-top: 2git0px;
     text-align: center;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -99,7 +98,7 @@ h3{
     color:yellow;
     border: 3px solid white;
     width: 80%;
-    height: 86%;
+    height: 40%;
     background-color: none;
      
     
